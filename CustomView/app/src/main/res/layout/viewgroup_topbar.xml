@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shixing.customview.MyTopBarAttr xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    custom:title="你好！"
+    custom:titleTextSize="12sp"
+    custom:titleTextColor="#000000"
+    custom:leftTextColor="#ffffff"
+    custom:leftBackground="#b00000"
+    custom:leftText="左边按钮"
+    custom:rightTextColor="#0000ff"
+    custom:rightBackground="#00000a"
+    custom:rightText="右边按钮"
+    />
