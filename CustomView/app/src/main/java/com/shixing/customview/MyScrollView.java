@@ -143,10 +143,10 @@ public class MyScrollView extends ViewGroup {
         super.computeScroll();
         Log.d(MainActivity.TAG, "computeScroll: mScroller.computeScrollOffset()=" +
                 mScroller.computeScrollOffset() + " mScroller.getCurrY()="+
-                mScroller.getCurrY());
+                mScroller.getCurrY() + " " + Thread.currentThread().getName());
         if(mScroller.computeScrollOffset()) {
             scrollTo(0, mScroller.getCurrY());
-            postInvalidate();
+            invalidate();  //或者是postInvalidate()
         }
     }
 

@@ -45,12 +45,16 @@ public class SecondActivity extends Activity {
 
             case 5:
                 setContentView(R.layout.view_cricle);
+                break;
             case 6:
                 setContentView(R.layout.view_volume);
+                break;
             case 7:
                 setContentView(R.layout.view_scroll);
+                break;
             case 8:
                 setContentView(R.layout.touch_event);
+                break;
             default:
                 break;
         }
